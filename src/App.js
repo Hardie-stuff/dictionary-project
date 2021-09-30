@@ -10,7 +10,16 @@ export default function App() {
           <Dictionary defaultKeyword="dictionary" />
         </main>
         <footer className="App-footer">
-          <small>Coded by Lara Hardie</small>{" "}
+          <small>
+            Coded by{" "}
+            <a
+              href="https://github.com/Hardie-stuff/dictionary-project"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Lara Hardie
+            </a>{" "}
+          </small>{" "}
         </footer>
       </div>
     </div>
